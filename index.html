@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+2
+<html lang="pt-BR">
+3
+<head>
+4
+<meta charset="UTF-8">
+5
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+6
+ 
+7
+<title>Fusebox Engenharia Solar</title>
+8
+ 
+9
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+10
+margin:0;
+11
+padding:0;
+12
+box-sizing:border-box;
+13
+font-family:'Poppins',sans-serif;
+14
+}
+15
+ 
+16
+body{
+17
+background:#071426;
+18
+color:#fff;
+19
+overflow-x:hidden;
+20
+}
+21
+ 
+22
+header{
+23
+position:fixed;
+24
+top:0;
+25
+width:100%;
+26
+background:rgba(7,20,38,.95);
+27
+padding:15px 8%;
+28
+display:flex;
+29
+justify-content:space-between;
+30
+align-items:center;
+31
+z-index:1000;
+32
+}
+33
+ 
+34
+.logo{
+35
+font-size:28px;
+36
+font-weight:800;
+37
+color:#FDBB25;
+38
+}
+39
+ 
+40
+.hero{
+41
+min-height:100vh;
+42
+display:flex;
+43
+align-items:center;
+44
+justify-content:center;
+45
+padding:120px 8% 50px;
+46
+text-align:center;
+47
+background:linear-gradient(135deg,#071426,#0b2a4f);
+48
+}
+49
+ 
+50
+.hero-content{
+51
+max-width:800px;
+52
+}
+53
+ 
+54
+.hero h1{
+55
+font-size:60px;
+56
+line-height:1.1;
+57
+margin-bottom:20px;
+58
+}
+59
+ 
+60
+.hero span{
+61
+color:#FDBB25;
+62
+}
+63
+ 
+64
+.hero p{
+65
+font-size:20px;
+66
+margin-bottom:35px;
+67
+color:#ddd;
+68
+}
+69
+ 
+70
+.btn{
+71
+display:inline-block;
+72
+padding:15px 30px;
+73
+margin:5px;
+74
+border-radius:50px;
+75
+text-decoration:none;
+76
+font-weight:700;
+77
+transition:.3s;
+78
+}
+79
+ 
+80
+.btn-primary{
+81
+background:#FDBB25;
+82
+color:#071426;
+83
+}
+84
+ 
+85
+.btn-whatsapp{
+86
+background:#25d366;
+87
+color:white;
+88
+}
+89
+ 
+90
+.btn:hover{
+91
+transform:translateY(-3px);
+92
+}
+93
+ 
+94
+section{
+95
+padding:80px 8%;
+96
+}
+97
+ 
+98
+.title{
+99
+font-size:40px;
+100
+text-align:center;
+101
+margin-bottom:40px;
+102
+color:#FDBB25;
+103
+}
+104
+ 
+105
+.cards{
+106
+display:grid;
+107
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+108
+gap:20px;
+109
+}
+110
+ 
+111
+.card{
+112
+background:#10213A;
+113
+padding:30px;
+114
+border-radius:20px;
+115
+}
+116
+ 
+117
+.card h3{
+118
+color:#FDBB25;
+119
+margin-bottom:15px;
+120
+}
+121
+ 
+122
+.numbers{
+123
+display:grid;
+124
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+125
+gap:20px;
+126
+}
+127
+ 
+128
+.number-card{
+129
+background:#10213A;
+130
+padding:25px;
+131
+text-align:center;
+132
+border-radius:20px;
+133
+}
+134
+ 
+135
+.number-card h2{
+136
+font-size:42px;
+137
+color:#FDBB25;
+138
+}
+139
+ 
+140
+.cta{
+141
+background:#FDBB25;
+142
+text-align:center;
+143
+color:#071426;
+144
+}
+145
+ 
+146
+.cta h2{
+147
+font-size:45px;
+148
+margin-bottom:15px;
+149
+}
+150
+ 
+151
+footer{
+152
+background:#050d18;
+153
+padding:25px;
+154
+text-align:center;
+155
+}
+156
+ 
+157
+@media(max-width:768px){
+158
+ 
+159
+.hero h1{
+160
+font-size:40px;
+161
+}
+162
+ 
+163
+.title{
+164
+font-size:32px;
+165
+}
+166
+ 
+167
+}
+168
+ 
+169
+</style>
+170
+ 
+171
+</head>
+172
+<body>
+173
+ 
+174
+<header>
+175
+<div class="logo">FUSEBOX ENGENHARIA SOLAR</div>
+176
+</header>
+177
+ 
+178
+<section class="hero">
+179
+ 
+180
+<div class="hero-content">
+181
+ 
+182
+<h1>
+183
+Transforme o <span>Sol</span> em Economia
+184
+</h1>
+185
+ 
+186
+<p>
+187
+Projetos de energia solar para residências, empresas e propriedades rurais.
+188
+Reduza sua conta em até 95%.
+189
+</p>
+190
+ 
+191
+https://wa.me/5562981310186
+192
+Solicitar Orçamento
+193
+</a>
+194
+ 
+195
+https://wa.me/5562981310186
+196
+WhatsApp
+197
+</a>
+198
+ 
+199
+</div>
+200
+ 
+201
+</section>
+202
+ 
+203
+<section>
+204
+ 
+205
+<h2 class="title">Por que escolher a Fusebox?</h2>
+206
+ 
+207
+<div class="cards">
+208
+ 
+209
+<div class="card">
+210
+<h3>⚡ Engenharia Especializada</h3>
+211
+<p>Projetos personalizados para máxima eficiência energética.</p>
+212
+</div>
+213
+ 
+214
+<div class="card">
+215
+<h3>☀️ Economia Garantida</h3>
+216
+<p>Reduza drasticamente seus gastos com energia elétrica.</p>
+217
+</div>
+218
+ 
+219
+<div class="card">
+220
+<h3>💰 Financiamento Fácil</h3>
+221
+<p>Condições acessíveis para você investir no seu futuro.</p>
+222
+</div>
+223
+ 
+224
+<div class="card">
+225
+<h3>🔧 Suporte Completo</h3>
+226
+<p>Da análise inicial até a homologação do sistema.</p>
+227
+</div>
+228
+ 
+229
+</div>
+230
+ 
+231
+</section>
+232
+ 
+233
+<section>
+234
+ 
+235
+<h2 class="title">Como Funciona</h2>
+236
+ 
+237
+<div class="cards">
+238
+ 
+239
+<div class="card">
+240
+<h3>1. Envie sua conta</h3>
+241
+<p>Analisamos gratuitamente seu consumo.</p>
+242
+</div>
+243
+ 
+244
+<div class="card">
+245
+<h3>2. Projeto</h3>
+246
+<p>Dimensionamos o sistema ideal.</p>
+247
+</div>
+248
+ 
+249
+<div class="card">
+250
+<h3>3. Instalação</h3>
+251
+<p>Nossa equipe realiza toda a implantação.</p>
+252
+</div>
+253
+ 
+254
+<div class="card">
+255
+<h3>4. Economia</h3>
+256
+<p>Comece a gerar sua própria energia.</p>
+257
+</div>
+258
+ 
+259
+</div>
+260
+ 
+261
+</section>
+262
+ 
+263
+<section>
+264
+ 
+265
+<h2 class="title">Resultados</h2>
+266
+ 
+267
+<div class="numbers">
+268
+ 
+269
+<div class="number-card">
+270
+<h2>95%</h2>
+271
+<p>Economia</p>
+272
+</div>
+273
+ 
+274
+<div class="number-card">
+275
+<h2>25+</h2>
+276
+<p>Anos de Vida Útil</p>
+277
+</div>
+278
+ 
+279
+<div class="number-card">
+280
+<h2>100%</h2>
+281
+<p>Suporte</p>
+282
+</div>
+283
+ 
+284
+<div class="number-card">
+285
+<h2>⚡</h2>
+286
+<p>Energia Limpa</p>
+287
+</div>
+288
+ 
+289
+</div>
+290
+ 
+291
+</section>
+292
+ 
+293
+<section class="cta">
+294
+ 
+295
+<h2>Solicite sua Análise Gratuita</h2>
+296
+ 
+297
+<p>
+298
+Descubra quanto você pode economizar todos os meses.
+299
+</p>
+300
+ 
+301
+<br><br>
+302
+ 
+303
+<a class="btn btn-whatsapp" href="https://wa.me/5562981310186" target="_blank">
+304
+h3>FUSEBOX ENGENHARIA SOLAR</h3>
+305
+ 
+306
+<p>WhatsApp: (62) 98131-0186</p>
+307
+ 
+308
+<p>© 2026 Todos os direitos reservados.</p>
+309
+ 
+310
+</footer>
+311
+ 
+312
+</body>
+313
+</html>
